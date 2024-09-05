@@ -17,7 +17,7 @@ const Journal = () => {
   const journalEntries = [
     {
       id: 1,
-      title: "The Art of Mindfulness",
+      title: " Art of Mindfulness",
       date: "2023-05-01",
       content: "Today, I explored the practice of mindfulness and its impact on daily life...",
     },
