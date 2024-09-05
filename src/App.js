@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Journal from './components/Journal';
 import { loadStripe } from '@stripe/stripe-js';
 import { Elements } from '@stripe/react-stripe-js';
 import DonationForm from './components/DonationForm';
@@ -54,7 +55,12 @@ function App() {
       <footer className="App-footer">
         <p>© 2023 MathSolve. All rights reserved.</p>
       </footer>
+      <Journal />
     </div>
+    
+      
+   
+
   );
 }
 

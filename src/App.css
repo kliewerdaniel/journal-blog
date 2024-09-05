@@ -259,3 +259,24 @@ code {
 * {
   transition: all 0.3s ease;
 }
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.App {
+  text-align: center;
+}
+
+.journal {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.StripeElement {
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+}
